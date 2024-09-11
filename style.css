@@ -1,0 +1,208 @@
+body {
+  background-color: rgba(0, 0, 0, 0.548);
+}
+
+h1 {
+  font-family: "Courier";
+  color: rgb(255, 255, 255);
+  padding-left: 12px;
+}
+
+h2 {
+  font-family: "Courier";
+  color: rgb(255, 255, 255);
+}
+
+button {
+  font-family: "Courier";
+  font-size: 20px;
+  border-radius: 4px;
+  border: 2px solid black;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gray;
+  color: rgb(255, 255, 255);
+}
+.cointainer {
+  position: absolute;
+  text-align: center;
+  color: white;
+}
+
+.dropmenu {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.dropbtn {
+  background-color: rgba(240, 248, 255, 0);
+  color: white;
+  padding: 8px;
+  font: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  width: 100%;
+  overflow: auto;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: none;
+  border-radius: 4px;
+}
+
+.dropdown-content a:hover {
+  background-color: #3e8e41;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.topleft {
+  position: absolute;
+  top: 850px;
+  left: 4px;
+}
+
+.cointainer2 {
+  position: relative;
+}
+p {
+  font-family: "Courier";
+  font-size: 2vw;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Courier";
+  color: white;
+  text-align: center;
+}
+
+.space {
+  padding-top: 125px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 10px;
+  gap: 10px;
+}
+
+.cards > div {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+  font-size: 10px;
+  height: 250px;
+}
+
+.reviewcontainer {
+  background-color: rgba(128, 128, 128, 0);
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  width: 100%;
+}
+
+.rating {
+  font-size: 20px;
+  font-family: "Courier";
+  margin: 10px;
+}
+
+.stars {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.star {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.one {
+  color: red;
+}
+
+.two {
+  color: rgb(255, 106, 0);
+}
+
+.three {
+  color: rgb(251, 255, 120);
+}
+
+.four {
+  color: rgb(255, 255, 0);
+}
+
+.five {
+  color: rgb(24, 159, 14);
+}
+
+textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.reviews {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.review {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.review p {
+  margin: 0;
+}
+
+.newreviews{
+    grid-
+}
