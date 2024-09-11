@@ -203,6 +203,52 @@ button:hover {
   margin: 0;
 }
 
-.newreviews{
-    grid-
+.checked {
+  color: orange;
+}
+
+/*.reviewsnew {
+  display: grid;
+  grid-template-rows: auto;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 10px;
+  gap: 10px;
+}*/
+.reviewsnew {
+  display: grid;
+  grid-template-rows: auto;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  padding: 10px;
+  gap: 10px;
+  width: 50%;
+}
+
+.reviewsnew > div {
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+  height: auto;
+}
+
+label {
+  font-family: "Courier";
+  color: white;
+  font-size: 20px;
+  padding-left: 12px;
+}
+
+textarea {
+  width: 75%;
+  height: 150px;
+  gap: 4px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
 }
