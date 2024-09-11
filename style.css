@@ -207,14 +207,6 @@ button:hover {
   color: orange;
 }
 
-/*.reviewsnew {
-  display: grid;
-  grid-template-rows: auto;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  padding: 10px;
-  gap: 10px;
-}*/
 .reviewsnew {
   display: grid;
   grid-template-rows: auto;
